@@ -1,5 +1,5 @@
 {% set name = "red-black-tree-mod" %}
-{% set version = "1.21" %}
+{% set version = "1.22" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/red-black-tree-mod-{{ version }}.tar.gz
-  sha256: f4e06ac7942db836e93dc4db45f1e8302c5ff98a797e8d14565d971f262ef25c
+  sha256: 38e3652903a2bf96379c27c2082ca0b7b905158662dd7ef0c97f4fd93a9aa908
 
 build:
   noarch: python
