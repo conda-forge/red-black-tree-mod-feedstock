@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: red-black-tree-mod
-  version: 1.22
+  version: "1.22"
 
 package:
   name: ${{ name|lower }}
